@@ -1,0 +1,1 @@
+cmd_/home/krishna/hello-world/deviceDriver.ko := ld -r -m elf_i386 -T ./scripts/module-common.lds --build-id  -o /home/krishna/hello-world/deviceDriver.ko /home/krishna/hello-world/deviceDriver.o /home/krishna/hello-world/deviceDriver.mod.o ;  true
