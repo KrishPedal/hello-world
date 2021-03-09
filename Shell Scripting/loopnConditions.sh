@@ -6,7 +6,6 @@ while [ $tempVar -gt 0 ]
 do
 	echo $tempVar
 	tempVar=$(( tempVar-1 ))
-	echo $tempVar
 done
 
 tempVar=Krishna
